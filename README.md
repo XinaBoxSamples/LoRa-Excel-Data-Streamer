@@ -37,10 +37,10 @@ In the video I have used a fan from a computer and a 4xAA Battery holder. You ca
 
 - You need Arduino for this project.
 - The Arduino project files uses the following libraries
--- Arduino LoRa: https://github.com/sandeepmistry/arduino-LoRa
--- XinaBox Core: https://github.com/xinabox/arduino-core
--- XinaBox SW01: https://github.com/xinabox/arduino-sw01
--- XinaBox OC03: https://github.com/xinabox/arduino-oc03
+ - Arduino LoRa: https://github.com/sandeepmistry/arduino-LoRa
+ - XinaBox Core: https://github.com/xinabox/arduino-core
+ - XinaBox SW01: https://github.com/xinabox/arduino-sw01
+ - XinaBox OC03: https://github.com/xinabox/arduino-oc03
 - And then you need Excel for Office 365. Check out if you have Data Streamer first before you continue - see below.
 
 #### The "Receiver" End
