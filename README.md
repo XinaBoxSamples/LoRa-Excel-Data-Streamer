@@ -19,7 +19,8 @@ Qty|xChip|Description
 
 #### Notes on the xChips
 
-Study this map for which ITU Region you belong to: <img src="ITUregions.svg" width="35%" height="auto" align="right">
+Study this map for which ITU Region you belong to: 
+<img src="ITUregions.svg" width="50%" height="auto" align="center">
 
 xChip|ITU Regions|Frequency|Notes
 ---|:---:|---:|---
