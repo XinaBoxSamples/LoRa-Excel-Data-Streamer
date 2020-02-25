@@ -13,11 +13,11 @@ Go to https://xinabox.cc and get yourself the following xChips:
 
 ### Notes on the xChips
 
-xChip | ITU Regions | Frequency 
+xChip|:ITU Regions:|Frequency: 
 ---|---|---
-CR01|-|434 MHz
-CR02|1|868 MHz
-CR03|2|915 MHz
+CR01|-|433.25 MHz
+CR02|1|868.00 MHz
+CR03|2|915.00 MHz
 
 Study this map for which ITU Region you belong to:
 ![ITU Regions](https://en.wikipedia.org/wiki/ITU_Region#/media/File:International_Telecommunication_Union_regions_with_dividing_lines.svg "ITU Regions")
