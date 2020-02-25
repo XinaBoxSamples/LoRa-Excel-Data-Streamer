@@ -19,9 +19,7 @@ Qty|xChip|Description
 
 #### Notes on the xChips
 
-Study this map for which ITU Region you belong to:
-
-![ITU Regions](ITUregions.svg "ITU Regions")
+Study this map for which ITU Region you belong to: <img src="ITUregions.svg" width="35%" height="auto" align="right">
 
 xChip|ITU Regions|Frequency|Notes
 ---|:---:|---:|---
@@ -63,7 +61,7 @@ This .ino file is the one that is connected to ... your environment.
 - Select the port where the IP01 is inserted. Compile and Upload.
 
 #### Make your 2 circuits
-![Circuits](circuits.jpg "Circuits")
+<img src="circuits.jpg" width="35%" height="auto" align="right">
 - Connect the IP01 and CR03 with the Receiver software using a connector. Attach the Antenna. Connect to your computer.
 - Connect the other CR03 with the PG01, OC03, and SW01, using 4 connectors. Attache the Antenna.
 - If you don't connect anything to the OC03, you can still see it turns on and off by looking at the blue LED just below the "Power" logo.
