@@ -17,11 +17,11 @@ Study this map for which ITU Region you belong to:
 
 ![ITU Regions](ITUregions.svg "ITU Regions")
 
-xChip|ITU Regions|Frequency
----|:---:|---:
-CR01|-|433.25 MHz
-CR02|1|868.00 MHz
-CR03|2|915.00 MHz
+xChip|ITU Regions|Frequency|Notes
+---|:---:|---:|---
+CR01|-|433.25 MHz|Can be used globally if you hold a Radio Amateur License
+CR02|1 (Yellow/B)|868.00 MHz|
+CR03|2 (Blue/C)|915.00 MHz|
 
 
 [![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](http://www.youtube.com/watch?v=oPtP6aEzzoA)
