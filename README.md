@@ -72,7 +72,7 @@ This .ino file is the one that is connected to ... your environment.
 #### Start up Excel
 - Open Excel and activate Data Streamer, see more here: https://support.office.com/en-us/article/what-is-data-streamer-1d52ffce-261c-4d7b-8017-89e8ee2b806f
 - Click on "Data Streamer" in the menu
-- Click "Connect to a device" and click on the serial port for the IP01. Excel will now build sheets for you to play with.
+- Click "Connect aevice" and click on the serial port for the IP01. Excel will now build sheets for you to play with.
 - Click "Start Streaming" and slowly the table should be filled with that.
 - But it is really much easier to watch the video....
 
