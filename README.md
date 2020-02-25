@@ -13,8 +13,8 @@ Go to https://xinabox.cc and get yourself the following xChips:
 
 ### Notes on the xChips
 
-xChip|:ITU Regions:|Frequency: 
----|---|---
+xChip|ITU Regions|Frequency
+---|:---:|---:
 CR01|-|433.25 MHz
 CR02|1|868.00 MHz
 CR03|2|915.00 MHz
