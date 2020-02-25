@@ -15,7 +15,7 @@ Go to https://xinabox.cc and get yourself the following xChips:
 
 Study this map for which ITU Region you belong to:
 
-![ITU Regions](https://en.wikipedia.org/wiki/ITU_Region#/media/File:International_Telecommunication_Union_regions_with_dividing_lines.svg "ITU Regions")
+![ITU Regions](ITUregions.svg "ITU Regions")
 
 xChip|ITU Regions|Frequency
 ---|:---:|---:
