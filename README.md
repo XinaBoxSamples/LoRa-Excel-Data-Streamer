@@ -1,7 +1,7 @@
 # LoRa Excel Data Streamer
 Using LoRa radios from XinaBox to send data to Excel Data Streamer
 
-##Getting Started
+## Getting Started
 
 Go to https://xinabox.cc and get yourself the following xChips:
 - 2 x CR0x
@@ -11,8 +11,14 @@ Go to https://xinabox.cc and get yourself the following xChips:
 - 1 x OC03
 - 1 x bag of connectors
 
-###Notes on the xChips
-####CR0x
+### Notes on the xChips
+
+xChip | ITU Regions | Frequency 
+---|---|---
+CR01|-|434 MHz
+CR02|1|868 MHz
+CR03|2|915 MHz
+
 Study this map for which ITU Region you belong to:
 ![ITU Regions](https://en.wikipedia.org/wiki/ITU_Region#/media/File:International_Telecommunication_Union_regions_with_dividing_lines.svg "ITU Regions")
 
