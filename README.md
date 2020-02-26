@@ -52,7 +52,7 @@ I put __Receiver__ in quotes because both .ino files both sends and receive, but
 - Download the [receiver.ino](src/receiver.ino) file and make a project in Arduino with this file. 
 - It is prepared for the **CR03** radio, so if you have a **CR02**, then change `915E6` to `868E6`. And if yu are using the **CR01**, then change `915E6` to `433E6`.
 - Connect the **IP01** and the **CR0x** using a connector. Insert into your computer.
-- In Ardunio select `Board: "Arduino Pro or Pro Mini"` and then select `Processor: "ATmega328P (5V, 16Mhz)"`
+- In *Arduino* select `Board: "Arduino Pro or Pro Mini"` and then select `Processor: "ATmega328P (5V, 16Mhz)"`
 - Select the port where the **IP01** is inserted. Compile and Upload.
 
 #### The "Sender" End
@@ -60,11 +60,12 @@ This .ino file is the one that is connected to ... your environment.
 - Download the [sender.ino](src/sender.ino) file and make a project in Arduino with this file. 
 - It is prepared for the **CR03** radio, so if you have a **CR02**, then change `915E6` to `868E6`. And if yu are using the **CR01**, then change `915E6` to `433E6`.
 - Connect the **IP01** and the other **CR0x** using a connector. Insert into your computer.
-- In Ardunio select `Board: "Arduino Pro or Pro Mini"` and then select `Processor: "ATmega328P (5V, 16Mhz)"`
+- In *Arduino* select `Board: "Arduino Pro or Pro Mini"` and then select `Processor: "ATmega328P (5V, 16Mhz)"`
 - Select the port where the **IP01** is inserted. Compile and Upload.
 
-#### Make your 2 circuits
 <img src="images/circuits.jpg" width="35%" height="auto" align="right">
+
+#### Make your 2 circuits
 - Connect the **IP01** and **CR03** with the Receiver software using a connector. Attach the Antenna. Connect to your computer.
 - Connect the other **CR03** with the **PG01**, **OC03**, and **SW01**, using 4 connectors. Attache the Antenna.
 - If you don't connect anything to the OC03, you can still see it turns on and off by looking at the blue LED just below the "Power" logo.
@@ -72,12 +73,11 @@ This .ino file is the one that is connected to ... your environment.
 - I have a couple of wires going into the **PG01** feeding the fan, but using the **OC03** as a switch.
 
 #### Start up Excel
-- Open Excel and activate Data Streamer, see more here: https://support.office.com/en-us/article/what-is-data-streamer-1d52ffce-261c-4d7b-8017-89e8ee2b806f
+- Open *Excel* and activate Data Streamer, see more here: https://support.office.com/en-us/article/what-is-data-streamer-1d52ffce-261c-4d7b-8017-89e8ee2b806f
 - Click on `Data Streamer` in the menu bar
-- Click `Connect a Device` and click on the serial port for the **IP01**. Excel will now build sheets for you to play with.
+- Click `Connect a Device` and click on the serial port for the **IP01**. *Excel* will now build sheets for you to play with.
 - Click `Start Data` and slowly the table should be filled with that.
-- But it is really much easier to watch the video....
+- But it is really much easier to watch the video...
 
-
-<a href="http://xib.one/bg" title="Video"><img src="images/youtubelogo.svg" alt="Video"  width="35%" height="auto" align="right"> /></a>
+<a href="http://xib.one/bg" title="Video"><img src="images/youtubelogo.svg" alt="Video" width="35%" height="auto" align="right"/></a>
 
