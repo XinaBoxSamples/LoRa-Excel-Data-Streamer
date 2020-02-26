@@ -1,5 +1,17 @@
 # LoRa Excel Data Streamer
-Using LoRa radios from XinaBox to send data to Excel Data Streamer
+Using LoRa radios from XinaBox to send data to Excel Data Streamer. 
+
+Reading temperature, humidity and barometric pressure from a **SW01** xChip (based on the BME280) and send the data via a LoRa radio to a receiving LoRa radio that is connected to a computer running *Excel 365*. In return reading a value from the same Excel spreadsheet sending that value via LoRa radio to the weather station to turn a relay on and off.
+
+This project can be modified easily with other sensory input from XinaBox, such as the **SL01** Light Sensor, the **SG33** VOC and eCO2 Sensor, the **SL19** Infrared Temperatur Sensor, or any of the many other sensors.
+Similarly the output can be increased with more **OC03** Relays, or modified to use Servos using the **OC05** or Steppers using the **OC06**, or any of the other output options. 
+There are also many power solutions. In this project the one end is powered by the computer via USB, and the weather station end with a 6V battery pack, but by changing the **PG01** to and **PU01**, **PU02** or **IP01**, you can power the weather station with USB, or even use a **PB01**, **PB02**, **PB04**, **PL01** for various battery solutions.
+
+If you want to build you own project using another single board computer (SBC), say the *Raspberry Pi*, you can use the XinaBox I2C controlled LoRa radios, **RL01**, **RL02**, and **RL03**. Connect those to the RasPi using the RasPi bridge, **BR01**. If you are using another single board computer, then use another bridge, such as BeagleBone Black (**BB01**), 96 Boards (like DragonBoard) (**B901**), Minnowboard (**BL01**), and others. You can use the same bridges to connect XinaBox sensors to your SBC.
+
+And if you want to use _LoRaWan_ to connect your project to a LoRaWan ready network, then take a look at our LoRaWan ready libraries for the **RL0x** radios:
+- [Raspberry Pi](https://github.com/xinabox/rpi-LMIC)
+- [Arduino](https://github.com/xinabox/arduino-LMIC-RL0x)
 
 <img src="images/circuits.jpg" width="20%" height="auto" align="right">
 
