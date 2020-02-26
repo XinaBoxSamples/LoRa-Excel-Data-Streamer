@@ -17,15 +17,16 @@ Using LoRa radios from XinaBox to send data to Excel Data Streamer
 
 Go to https://xinabox.cc and get yourself the following xChips:
 
-Qty|xChip|Description
----:|:---:|---
-2|CR0x|Arduino Uno core xChip with LoRa radio
-1 | IP01 | Power, Programming and Comminucation xChip
-1| PG01| Generic Power xChip, 6-24 Volt DC input
-1 | SW01 | Weather Sensors for Temperature, Humidity and Bariometric Pressure
-1 | OC03 | Relay
-? | PU02 | Micro USB power source, if you don't want to hassle with power for the PG01
-1|XC10|bag of connectors
+Qty |Qty |xChip|Description
+Required|Suggested||
+---:|---:|:---:|---
+2|2|CR0x|Arduino Uno core xChip with LoRa radio
+1|2|IP01 | Power, Programming and Comminucation xChip
+1|1|PG01| Generic Power xChip, 6-24 Volt DC input
+1|1|SW01 | Weather Sensors for Temperature, Humidity and Bariometric Pressure
+-|1|OC03 | Relay
+-|1|PU02 | Micro USB power source, if you don't want to hassle with power for the PG01
+1|1|XC10|bag of connectors
 
 #### Notes on the xChips
 Study this map for which ITU Region you belong to: 
