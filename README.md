@@ -1,8 +1,8 @@
 # LoRa Excel Data Streamer
 Using LoRa radios from XinaBox to send data to Excel Data Streamer
 
+<img src="images/circuits.jpg" width="20%" height="auto" align="right">
 ## Getting Started
-
 - [Get the components](#get-the-components)
 - [Build](#build)
   - [Required software](#required-software)
