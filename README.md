@@ -17,8 +17,7 @@ Using LoRa radios from XinaBox to send data to Excel Data Streamer
 
 Go to https://xinabox.cc and get yourself the following xChips:
 
-Qty|Qty|xChip|Description
-Required|Suggested| |
+Qty Required|Qty Suggested|xChip|Description
 ---:|---:|:---:|---
 2|2|CR0x|Arduino Uno core xChip with LoRa radio
 1|2|IP01|Power, Programming and Communication xChip
