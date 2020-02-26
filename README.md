@@ -19,13 +19,13 @@ Go to https://xinabox.cc and get yourself the following xChips:
 
 Qty Required|Qty Suggested|xChip|Description
 ---:|---:|:---:|---
-2|2|CR0x|Arduino Uno core xChip with LoRa radio
-1|2|IP01|Power, Programming and Communication xChip
-1|1|PG01|Generic Power xChip, 6-24 Volt DC input, not needed if you get another IP01 or a PU02
-1|1|SW01|Weather Sensor for Temperature, Humidity and Bariometric Pressure
-0|1|OC03|Relay, optional, but included in the code
-0|1|PU02|Micro USB power source, if you don't want to hassle with power for the PG01, or use another IP01
-1|1|XC10|Bag of xBus connectors
+2|2|[CR0x](https://xinabox.cc/products/CR03)|Arduino Uno core xChip with LoRa radio
+1|2|[IP01](https://xinabox.cc/products/IP01)|Power, Programming and Communication xChip
+1|1|[PG01](https://xinabox.cc/products/PG01)|Generic Power xChip, 6-24 Volt DC input, not needed if you get another IP01 or a PU02
+1|1|[SW01](https://xinabox.cc/products/SW01)|Weather Sensor for Temperature, Humidity and Bariometric Pressure
+0|1|[OC03](https://xinabox.cc/products/OC03)|Relay, optional, but included in the code
+0|1|[PU02](https://xinabox.cc/products/PU02)|Micro USB power source, if you don't want to hassle with power for the PG01, or use another IP01
+1|1|[XC10](https://xinabox.cc/products/XC10)|Bag of xBus connectors
 
 #### Notes on the xChips
 Study this map for which ITU Region you belong to: 
