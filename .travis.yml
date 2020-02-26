@@ -1,0 +1,31 @@
+language: python
+python:
+    - "2.7"
+    
+sudo: false
+cache:
+    directories:
+        - "~/.platformio"
+    
+env:
+    - PLATFORMIO_CI_SRC=src/sender.ino
+    - PLATFORMIO_CI_SRC=src/receiver.ino
+
+install:
+    - pip install -U platformio
+    - platformio update
+
+    - wget https://github.com/xinabox/arduino-CORE/archive/master.zip -O /tmp/arduino-CORE.zip
+    - unzip /tmp/arduino-CORE.zip -d /tmp/
+    
+    - wget https://github.com/xinabox/arduino-SW01/archive/master.zip -O /tmp/arduino-SW01.zip
+    - unzip /tmp/arduino-SW01.zip -d /tmp/
+    
+    - wget https://github.com/xinabox/arduino-OC03/archive/master.zip -O /tmp/arduino-OC03.zip
+    - unzip /tmp/arduino-OC03.zip -d /tmp/
+
+    - wget https://github.com/sandeepmistry/arduino-LoRa/archive/master.zip -O /tmp/arduino-LoRa.zip
+    - unzip /tmp/arduino-LoRa.zip -d /tmp/
+
+script:
+    - platformio ci --lib="." --lib="/tmp/arduino-CORE-master"  --lib="/tmp/arduino-SW01-master"  --lib="/tmp/arduino-OC03-master"   --lib="/tmp/arduino-LoRa-master" --board=uno --board=zero --board=xinabox_cw01 --board=xinabox_cw02
