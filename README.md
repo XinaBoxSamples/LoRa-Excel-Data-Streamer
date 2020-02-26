@@ -1,5 +1,5 @@
-[![Build Status](https://travis-ci.org/xinabox/LoRa-Excel-Data-Streamer.svg?branch=master)](https://travis-ci.org/xinabox/LoRa-Excel-Data-Streamer)
-[![GitHub issues](https://img.shields.io/github/issues/xinabox/LoRa-Excel-Data-Streamer.svg)](https://github.com/xinabox/LoRa-Excel-Data-Streamer/issues) ![GitHub Commit](https://img.shields.io/github/last-commit/xinabox/LoRa-Excel-Data-Streamer) ![Maintained](https://img.shields.io/maintenance/yes/2020)
+[![Build Status](https://travis-ci.org/xinaboxsamples/LoRa-Excel-Data-Streamer.svg?branch=master)](https://travis-ci.org/xinaboxsamples/LoRa-Excel-Data-Streamer)
+[![GitHub issues](https://img.shields.io/github/issues/xinaboxsamples/LoRa-Excel-Data-Streamer.svg)](https://github.com/xinaboxsamples/LoRa-Excel-Data-Streamer/issues) ![GitHub Commit](https://img.shields.io/github/last-commit/xinaboxsamples/LoRa-Excel-Data-Streamer) ![Maintained](https://img.shields.io/maintenance/yes/2020)
 
 # LoRa Excel Data Streamer
 Using LoRa radios from XinaBox to send data to Excel Data Streamer. 
