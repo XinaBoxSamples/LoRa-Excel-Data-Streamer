@@ -3,9 +3,14 @@ Using LoRa radios from XinaBox to send data to Excel Data Streamer
 
 ## Getting Started
 
-[Get the components](#get-the-components)
-[Build](#build)
-
+- [Get the components](#get-the-components)
+- [Build](#build)
+  - [Required software](#required-software)
+  - [The "Receiver" End](#the-receiver-end)
+  - [The "Sender" End](#the-sender-end)
+  - [Make the 2 circuits](#make-the-2-circuits)
+  - [Excel Data Streamer](#excel-data-streamer)  
+  
 
 ### Get the components
 
@@ -39,7 +44,7 @@ In the video I have used a fan from a computer and a 4xAA Battery holder. You ca
 
 ### Build
 
-#### Needed software
+#### Required software
 
 - You need Arduino for this project.
 - The Arduino project files uses the following libraries
@@ -67,14 +72,14 @@ This .ino file is the one that is connected to ... your environment.
 
 <img src="images/circuits.jpg" width="35%" height="auto" align="right">
 
-#### Make your 2 circuits
+#### Make the 2 circuits
 - Connect the **IP01** and **CR03** with the Receiver software using a connector. Attach the Antenna. Connect to your computer.
 - Connect the other **CR03** with the **PG01**, **OC03**, and **SW01**, using 4 connectors. Attache the Antenna.
 - If you don't connect anything to the OC03, you can still see it turns on and off by looking at the blue LED just below the "Power" logo.
 - Connect a power source to the **PG01**. While the power has to be DC (it has to have a + and a -), it doesn't matter which wire goes where, the PG01 will find the + and - it self. You can use any power from 6V (like in the picture) to 24 Volt (such as 12-14 volt from a car battery).
 - I have a couple of wires going into the **PG01** feeding the fan, but using the **OC03** as a switch.
 
-#### Start up Excel
+#### Excel Data Streamer
 - Open *Excel* and activate Data Streamer, see more here: https://support.office.com/en-us/article/what-is-data-streamer-1d52ffce-261c-4d7b-8017-89e8ee2b806f
 - Click on `Data Streamer` in the menu bar
 - Click `Connect a Device` and click on the serial port for the **IP01**. *Excel* will now build sheets for you to play with.
