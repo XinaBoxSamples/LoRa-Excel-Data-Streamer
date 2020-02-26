@@ -47,7 +47,7 @@ In the video I have used a fan from a computer and a 4xAA Battery holder. You ca
 
 #### The "Receiver" End
 I put __Receiver__ in quotes because both .ino files both sends and receive, but this .ino file is the one that is connected to your computer and talks directly to Excel.
-- Download the receiver.ino file and make a project in Arduino with this file. 
+- Download the src/receiver.ino file and make a project in Arduino with this file. 
 - It is prepared for the CR03 radio, so if you have a CR02, then change "915E6" to "868E6". And if yu are using the CR01, then change "915E6" to "433E6".
 - Connect the IP01 and the CR0x using a connector. Insert into your computer.
 - In Ardunio select Board: "Arduino Pro or Pro Mini" and then select Processor: "ATmega328P (5V, 16Mhz)"
@@ -55,7 +55,7 @@ I put __Receiver__ in quotes because both .ino files both sends and receive, but
 
 #### The "Sender" End
 This .ino file is the one that is connected to ... your environment.
-- Download the sender.ino file and make a project in Arduino with this file. 
+- Download the src/sender.ino file and make a project in Arduino with this file. 
 - It is prepared for the CR03 radio, so if you have a CR02, then change "915E6" to "868E6". And if yu are using the CR01, then change "915E6" to "433E6".
 - Connect the IP01 and the other CR0x using a connector. Insert into your computer.
 - In Ardunio select Board: "Arduino Pro or Pro Mini" and then select Processor: "ATmega328P (5V, 16Mhz)"
