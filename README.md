@@ -9,9 +9,9 @@ Using LoRa radios from XinaBox to send data to Excel Data Streamer
   - [The "Receiver" End](#the-receiver-end)
   - [The "Sender" End](#the-sender-end)
   - [Make the 2 circuits](#make-the-2-circuits)
-  - [Excel Data Streamer](#excel-data-streamer)  
+  - [Excel Data Streamer](#excel-data-streamer)
+- [Watch this video first!] (http://xib.one/bg "Video")
   
-
 ### Get the components
 
 Go to https://xinabox.cc and get yourself the following xChips:
@@ -27,8 +27,8 @@ Qty|xChip|Description
 1|XC10|bag of connectors
 
 #### Notes on the xChips
-
 Study this map for which ITU Region you belong to: 
+
 <img src="images/ITUregions.svg" width="50%" height="auto" align="center">
 
 xChip|ITU Regions|Frequency|Notes
