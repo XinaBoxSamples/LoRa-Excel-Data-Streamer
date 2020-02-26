@@ -6,7 +6,7 @@ Using LoRa radios from XinaBox to send data to Excel Data Streamer
 [Get the components](#get-the-components)
 
 
-(#get-the-components)
+#get-the-components
 
 Go to https://xinabox.cc and get yourself the following xChips:
 
