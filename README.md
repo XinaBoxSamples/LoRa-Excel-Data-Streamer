@@ -78,7 +78,7 @@ This .ino file is the one that is connected to ... your environment.
 
 
 
-![Video](http://www.youtube.com/watch?v=oPtP6aEzzoA "Video")
+![Video](https://youtu.be/p3n13H2vXbU "Video")
 
-
+<a href="http://xib.one/bg" title="Video"><img src="{image-url}" alt="Video" /></a>
 
