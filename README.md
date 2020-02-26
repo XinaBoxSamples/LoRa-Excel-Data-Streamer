@@ -10,7 +10,7 @@ Using LoRa radios from XinaBox to send data to Excel Data Streamer
   - [The "Sender" End](#the-sender-end)
   - [Make the 2 circuits](#make-the-2-circuits)
   - [Excel Data Streamer](#excel-data-streamer)
-- [Watch this video first!] (http://xib.one/bg "Video")
+- [Watch this video first!](http://xib.one/bg "Video")
   
 ### Get the components
 
@@ -84,6 +84,8 @@ This .ino file is the one that is connected to ... your environment.
 - Click on `Data Streamer` in the menu bar
 - Click `Connect a Device` and click on the serial port for the **IP01**. *Excel* will now build sheets for you to play with.
 - Click `Start Data` and slowly the table should be filled with that.
+
+## Video
 - But it is really much easier to watch the video...
 
 <a href="http://xib.one/bg" title="Video"><img src="images/youtubelogo.svg" alt="Video" width="35%" height="auto" align="right"/></a>
